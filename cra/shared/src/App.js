@@ -1,10 +1,9 @@
 import LocalButton from './Button';
-import UserForm from '../../shared/src/form/user_form';
+
 const App = () => (
   <div>
     <h1>Basic Host-Remote</h1>
-    <h2>Remote</h2>
-    <UserForm />
+    <h2>Shared Components</h2>
     <LocalButton />
   </div>
 );
