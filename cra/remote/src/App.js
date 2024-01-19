@@ -1,5 +1,5 @@
 import LocalButton from './Button';
-import UserForm from '../../shared/src/form/user_form';
+import UserForm from '../../shared/src/organism/form/user_form';
 const App = () => (
   <div>
     <h1>Basic Host-Remote</h1>

@@ -1,0 +1,26 @@
+.avatar__group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.avatar__group__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.avatar__group__name {
+  font-weight: 700;
+  color: #000000;
+}
+
+.avatar__group__subtitle {
+  font-size: 14px;
+  line-height: 24px;
+  color: gray;
+}
