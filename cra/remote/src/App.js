@@ -1,12 +1,18 @@
-import LocalButton from './Button';
-import UserForm from '../../shared/src/form/user_form';
+import React from 'react';
+import Test from './assets/images/test.png';
+import NavigationBar from './components/organism/navBar';
+import LandingFirstSection from './components/organism/landingFirstSection';
+
 const App = () => (
-  <div>
-    <h1>Basic Host-Remote</h1>
-    <h2>Remote</h2>
-    <UserForm />
-    <LocalButton />
-  </div>
+  <>
+    <NavigationBar/>
+    <LandingFirstSection
+      text="Description of your product."
+      buttonText="Call to Action"
+      imageUrl={Test}
+      imageAlt="Product Image"
+    />
+  </>
 );
 
 export default App;
